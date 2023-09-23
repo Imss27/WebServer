@@ -1,5 +1,5 @@
 # WebServer
-用C++实现的高性能WEB服务器
+A webserver implemented by using C++.
 
 ## Funtions
 * 利用IO复用技术Epoll与线程池实现多线程的Reactor高并发模型；
@@ -90,11 +90,9 @@ make
 * QPS 4000+
 
 ## TODO
-* config配置
-* 完善单元测试
-* 实现循环缓冲区
+
 
 ## Acknowlegdement
-Linux高性能服务器编程，游双著.
+《Linux高性能服务器编程》，游双.
 
 [@qinguoyi](https://github.com/qinguoyi/TinyWebServer)

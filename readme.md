@@ -50,19 +50,19 @@ A webserver implemented by using C++.
 
 
 ## Init
-需要先配置好对应的数据库
+Set up the database
 ```bash
-// 建立yourdb库
+// yourdb
 create database yourdb;
 
-// 创建user表
+// user table
 USE yourdb;
 CREATE TABLE user(
     username char(50) NULL,
     password char(50) NULL
 )ENGINE=InnoDB;
 
-// 添加数据
+// insert data
 INSERT INTO user(username, password) VALUES('name', 'password');
 ```
 

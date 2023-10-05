@@ -14,7 +14,7 @@ void TestLog() {
         Log::Instance()->SetLevel(level);
         for(int j = 0; j < 10000; j++ ){
             for(int i = 0; i < 4; i++) {
-                LOG_BASE(i,"%s 111111111 %d ============= ", "Test", cnt++);
+                LOG_BASE(i,"%s ===111=== %d ============= ", "Test", cnt++);
             }
         }
     }
@@ -24,7 +24,7 @@ void TestLog() {
         Log::Instance()->SetLevel(level);
         for(int j = 0; j < 10000; j++ ){
             for(int i = 0; i < 4; i++) {
-                LOG_BASE(i,"%s 222222222 %d ============= ", "Test", cnt++);
+                LOG_BASE(i,"%s ===222=== %d ============= ", "Test", cnt++);
             }
         }
     }
